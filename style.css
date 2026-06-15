@@ -1,0 +1,766 @@
+/*Main Website*/
+.head{
+	text-align:center;
+	filter:hue-rotate(270deg);
+	display:flex;
+	justify-content:center;
+	margin-top:-172px;
+	margin-bottom:-50px;
+	}
+.head h1{
+	opacity:0;
+}
+.twentenhead h1{
+	opacity:0;
+}
+.twenelevhead h1{
+	opacity:0;
+}
+.twentwelhead h1{
+	opacity:0;
+}
+.topcontainer{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	margin-bottom:0px;
+	padding:0px;
+	margin-right:200px;
+	margin-top:50px;
+	z-index:1;
+}
+.adcontainer{
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+	margin-bottom:0px;
+	margin-left:297px;
+	z-index:2;
+}
+.tc-displayflex{
+	display:flex;
+	justify-content:center;
+}
+.cuttingboard{
+	display:flex;
+	justify-content:center;
+	margin-bottom:30px;
+}
+.cb-table{
+	background-image:url("wood.jpg");
+	width:auto;
+	max-width:1000px;
+	padding:30px;
+}
+.no-cb-table{
+	background-color:#66ff33;
+	width:auto;
+	max-width:1000px;
+	padding:30px;
+}
+.boardcontainer img{
+	float:left;
+}
+.boardcontainer p{
+	margin-left:100px;
+	background-color:white;
+	height:100px;
+	text-align:center;
+	font-size:25px;
+	padding:10px;
+	width:200px;
+	font-family: Arial, sans-serif;
+}
+.bar{
+	background-color:#6600cc;
+	left:500px;
+	margin:0px;
+	overflow:hidden;
+	display:flex;
+	flex-wrap:none;
+	justify-content:center;
+	font-family: 'Trebuchet MS', sans-serif;
+	}
+.bar a{
+	float:left;
+	text-decoration:none;
+	color:white;
+	padding-left:33px;
+	padding-right:33px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	display:block;
+	}
+.bar a:hover{
+	background-color:#4d0099;
+	}
+
+.homebody{
+	background-image:url("demoback.jpg");
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-size:100%;
+	background-color:#abff77;
+}
+.musbody{
+	background-image:url("kitchen3.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.vidbody{
+	background-image:url("kitchen3.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.blogbody{
+	background-image:url("kitchen3.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.exbody{
+	background-image:url("kitchen3.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.aboutbody{
+	background-image:url("kitchen3.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.repeatbody{
+	background-image:url("wall2.jpg");
+	background-repeat:repeat;
+	background-size:contain;
+	background-size:50%;
+}
+.twentenbody{
+	background-image:url("wall2.jpg");
+	background-repeat:repeat;
+	background-size:contain;
+	background-size:50%;
+}
+	
+* {box-sizing:border-box}
+
+/*Slideshow Container*/
+.slideshow-container{
+	max-width:500px;
+	position:relative;
+	margin:auto;
+	}
+	
+.mySlides{
+	display:none;
+	}
+	
+.prev, .next{
+	cursor:pointer;
+	position:absolute;
+	top:50%;
+	width:auto;
+	margin-top:-22px;
+	padding:16px;
+	color:white;
+	font-weight:bold;
+	font-size:25px;
+	transition:0.5s ease;
+	border-radius: 0 3px 3px 0;
+	user-select:none;
+	background-color:rgba(0,0,0,0.3);
+	}
+	
+.next{
+	right:0;
+	border-radius: 3px 0 0 3px;
+	}
+
+.prev:hover, .next:hover{
+	background-color:rgba(0,0,0,0.6);
+	}
+	
+.slideText{
+	color:white;
+	font-size:15px;
+	padding:8px 12px;
+	position:absolute;
+	bottom:4px;
+	width:100%;
+	height:40px;
+	text-align:center;
+	background-color:rgba(0,0,0,0.7);
+	font-family:verdana;
+	}
+
+.dot{
+	cursor:pointer;
+	height:15px;
+	width:15px;
+	margin:0 2px;
+	background-color:#F7D9B4;
+	border-radius:50%;
+	display:inline-block;
+	transition:background-color 0.5s ease;
+	}
+	
+.active, .dot:hover{
+	background-color:#4D4338;
+	}
+	
+.fade{
+	animation-name:fade;
+	animation-duration:1.5s;
+	}
+	
+@keyframes fade{
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+/*Advertisements*/
+.ad{
+	background-color:black;
+	color:white;
+	font-size:12px;
+	padding-left:2px;
+	padding-right:3px;
+	transform: rotate(-90deg);
+	margin-right:-45px;
+	}
+.advert{
+	width:660px;
+	height:104px;
+	background-image:url("rrbanrja.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	overflow:hidden;
+	margin-right:0px;
+	}
+.adverttwo{
+	display:flex;
+	justify-content:flex-start;
+	margin-left:100px;
+	padding:5px;
+	width:135px;
+	height:400px;
+	background-image:url("hilaryy.png");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin-top:0px;
+	overflow:hidden;
+	position:absolute;
+	}
+.advertthree{
+	width:660px;
+	height:104px;
+	background-image:url("kccool.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	overflow:hidden;
+	margin-right:0px;
+	}
+.nyadone{
+	display:flex;
+	justify-content:flex-start;
+	margin-left:100px;
+	padding:5px;
+	width:135px;
+	height:400px;
+	background-image:url("nyad1.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin-top:0px;
+	overflow:hidden;
+	position:absolute;
+	}
+.plutoadone{
+	display:flex;
+	justify-content:flex-start;
+	margin-left:100px;
+	padding:5px;
+	width:135px;
+	height:400px;
+	background-image:url("plutoad1.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin-top:0px;
+	overflow:hidden;
+	position:absolute;
+	}
+/*Music Page Table*/
+.mustab{
+	display:flex;
+	justify-content:center;
+	float:left;
+	}
+/*Blog Page Table*/
+.blogtab{
+	width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+	}
+/*Footer*/
+.footer{
+	display:flex;
+	justify-content:center;
+	background-color:#559900;
+	color:white;
+	height:auto;
+	font-family: Tahoma, sans-serif;
+	}
+.footer a:visited {
+  color: white;
+}
+.scloud a{
+	display:flex;
+	align-items:center;
+	margin-right:5px;
+}
+.itunes a{
+	display:flex;
+	align-items:center;
+	margin-right:5px;
+}
+.ytube a{
+	display:flex;
+	align-items:center;
+	margin-right:5px;
+}
+.igram a{
+	display:flex;
+	align-items:center;
+	margin-right:5px;
+}
+#hilaryimg{
+	width:100px;
+	height:100px;
+	display:flex;
+	justify-content:center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*Hilary Duff Blog Entry*/
+#hilucy{
+	float:left;
+	margin-right:15px;
+	margin-bottom:15px;
+	}
+	
+/*2010 Page Stuff*/
+.twentenbar{
+	background-image:url("metal.jpg");
+	left:500px;
+	margin:0px;
+	overflow:hidden;
+	display:flex;
+	flex-wrap:none;
+	justify-content:center;
+	}
+.twentenbar a{
+	float:left;
+	text-decoration:none;
+	color:black;
+	padding-left:33px;
+	padding-right:33px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	display:block;
+	}
+.twentenbar a:hover{
+	background-image:url("metaldark.jpg");
+	}
+.twentenbig{
+	float:left;
+	font-size:50px;
+	margin-right:15px;
+	}
+.twentencoveranlys a{
+	text-decoration:none;
+	color:black;
+	}
+.twentencoveranlys a:hover{
+	text-decoration:none;
+	color:#0077bb;
+	}
+.twentencover{
+	margin:15px;
+	display:flex;
+	justify-content:center;
+	margin-left:250px;
+	}
+.twentenhead{
+	margin:0px;
+	background-image:url("wallpaper.png");
+	background-repeat:repeat;
+	padding:25px;
+	text-align:center;
+	filter:hue-rotate(255deg);
+	display:flex;
+	justify-content:center;
+	}
+.twentensongs a{
+	text-decoration:none;
+	color:black;
+	}
+.twentensongs a:hover{
+	text-decoration:none;
+	color:#00aabb;
+	}
+.twentenfooter{
+	display:flex;
+	justify-content:center;
+	background-image:url("metaldark.jpg");
+	background-repeat:repeat;
+	color:white;
+	height:auto;
+	clear:both;
+	font-family: Tahoma, sans-serif;
+	}
+.twentenfooter a:visited {
+  color: white;
+}
+/*2010 lyrics*/
+/*summer beach nightmare*/
+.sbnlyrics{
+	padding:20px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:75%;
+	height:auto;
+	margin-top:20px;
+	margin-left:100px;
+	}
+/*neo and geo*/
+.neolyrics{
+	padding:20px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:40%;
+	height:auto;
+	margin-top:20px;
+	float:left;
+	margin-bottom:20px;
+	}
+.geolyrics{
+	padding:20px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:40%;
+	height:auto;
+	margin-left:500px;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+/*active*/
+.activelyrics{
+	padding:30px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:50%;
+	height:auto;
+	margin-top:30px;
+	margin-left:250px;
+	}
+/*2011 Page Stuff*/
+.twenelevbig{
+	float:left;
+	font-size:50px;
+	margin-right:15px;
+	}
+.twenelevcoveranlys a{
+	text-decoration:none;
+	color:white;
+	}
+.twenelevcoveranlys a:hover{
+	text-decoration:none;
+	color:#a64dff
+	}
+.twenelevcover{
+	margin:15px;
+	}
+.twenelevhead{
+	margin:0px;
+	background-image:url("wallpaper.png");
+	background-repeat:repeat;
+	padding:25px;
+	text-align:center;
+	filter:hue-rotate(255deg);
+	display:flex;
+	justify-content:center;
+	}
+.twenelevsongs a{
+	text-decoration:none;
+	color:white;
+	}
+.twenelevsongs a:hover{
+	text-decoration:none;
+	color:#FFA000;
+	}
+.twenelevfooter{
+	display:flex;
+	justify-content:center;
+	background-color:#6600cc;
+	color:white;
+	height:auto;
+	clear:both;
+	font-family: Tahoma, sans-serif;
+	}
+.twenelevfooter a:visited {
+  color: white;
+}
+/*2011 lyrics*/
+/*i don't care anymore :(*/
+.idclyrics{
+	padding:25px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:60%;
+	height:auto;
+	margin-top:20px;
+	margin-left:150px;
+	}
+/*leave*/
+.leavelyrics{
+	padding:25px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:60%;
+	height:auto;
+	margin-top:20px;
+	margin-left:200px;
+	}
+/*The N*/
+.thenlyrics{
+	padding:25px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:60%;
+	height:auto;
+	margin-top:20px;
+	margin-left:200px;
+	}
+/*2012 Page Stuff*/
+.twentwelbar{
+	background-image:url("metal.jpg");
+	left:500px;
+	margin:0px;
+	overflow:hidden;
+	display:flex;
+	flex-wrap:none;
+	justify-content:center;
+	}
+.twentwelbar a{
+	float:left;
+	text-decoration:none;
+	color:black;
+	padding-left:33px;
+	padding-right:33px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	display:block;
+	}
+.twentwelbar a:hover{
+	background-image:url("metaldark.jpg");
+	}
+.twentwelbig{
+	float:left;
+	font-size:50px;
+	margin-right:15px;
+	}
+.twentwelcoveranlys a{
+	text-decoration:none;
+	color:black;
+	}
+.twentwelcoveranlys a:hover{
+	text-decoration:none;
+	color:#800000;
+	}
+.twentwelcover{
+	margin:15px;
+	}
+.twentwelhead{
+	margin:0px;
+	background-image:url("wallpaper2012.webp");
+	background-repeat:no-repeat;
+	padding:25px;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	background-size:100% 100%;
+	}
+.twentwelsongs a{
+	text-decoration:none;
+	color:black;
+	}
+.twentwelsongs a:hover{
+	text-decoration:none;
+	color:#800000;
+	}
+.twelogcover{
+	width:200px;
+	height:200px;
+	background-image:url("2k12.webp");
+	background-size:100% 100%;
+	margin-left:700px;
+	}
+.justin a{
+	text-decoration:none;
+	color:black;
+	}
+.justin a:hover{
+	text-decoration:none;
+	color:#558000;
+	}
+.twentwelfooter{
+	display:flex;
+	justify-content:center;
+	background-image:url("metaldark.jpg");
+	background-repeat:repeat;
+	color:white;
+	height:auto;
+	clear:both;
+	font-family: Tahoma, sans-serif;
+	}
+.twentwelfooter a:visited {
+  color: white;
+}
+/*2012 lyrics*/
+/*i saw u xd*/
+.isawulyrics{
+	padding:25px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:60%;
+	height:auto;
+	margin-top:20px;
+	margin-left:200px;
+	}
+.ilevilyrics{
+	padding:25px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:60%;
+	height:auto;
+	margin-top:20px;
+	margin-left:200px;
+	}
+.dronelyrics{
+	padding:25px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:60%;
+	height:auto;
+	margin-top:20px;
+	margin-left:200px;
+	}
+.enochalyrics{
+	padding:25px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:60%;
+	height:auto;
+	margin-top:20px;
+	margin-left:200px;
+	}
+.yoltlyrics{
+	padding:25px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:60%;
+	height:auto;
+	margin-top:20px;
+	margin-left:200px;
+	}
+.cdromlyrics{
+	padding:50px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:60%;
+	height:auto;
+	margin-top:20px;
+	margin-left:200px;
+	}
+.jewellyrics{
+	padding:30px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:60%;
+	height:auto;
+	margin-top:20px;
+	margin-left:200px;
+	}
+.miclyrics{
+	padding:30px;
+	background-image:url("lybck.webp");
+	text-align:center;
+	background-size:100% 100%;
+	width:60%;
+	height:auto;
+	margin-top:20px;
+	margin-left:200px;
+	}
+/*Chitachi*/
+.chitachi{
+	display:flex;
+	justify-content:center;
+	padding-left:0px;
+	padding-right:0px;
+	}
+/*Noches Loches Dress Up*/
+.dressup{
+	display:flex;
+	justify-content:center;
+	padding-left:0px;
+	padding-right:0px;
+	float:left;
+	margin-bottom:25px;
+	}
+/*Noches Loches' Secret Underground Cave of Unuploaded Music*/
+.cavebackground{
+	margin:0px;
+	padding:0px;
+	background-image:url("cave.webp");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	}
+.caveswf{
+	display:flex;
+	justify-content:center;
+	padding-left:0px;
+	padding-right:0px;
+	float:left;
+	margin-bottom:25px;
+	}
+.cb-table{
+	width:auto;
+	padding:30px;
+}
+.cavefooter{
+	display:flex;
+	justify-content:center;
+	background-color:#4A4A4A;
+	color:white;
+	height:auto;
+	clear:both;
+	font-family: Tahoma, sans-serif;
+	}
+.cavefooter a:visited {
+  color: white;
+}
