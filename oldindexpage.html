@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<title>
+	SILVERWARED
+	</title>
+</head>
+<body style="margin:0px; padding:0px;" class="homebody">
+<div class="head">
+<h1>SILVERWARED</h1>
+<img src="slvrwaredlogo.gif" width="500" height="130" wmode="transparent" class="tit"></img>
+</div>
+<div class="bar">
+<a href="index.html">HOME</a>
+<a href="music.html">MUSIC</a>
+<a href="videos.html">VIDEOS</a>
+<a href="blog.html">BLOG</a>
+<a href="extras.html">EXTRAS</a>
+</div>
+<p class="ad">ADVERTISEMENT</p>
+<div>
+<a href="https://soundcloud.com/nochesloches/sets/2010a" class="advert" target="_blank"></a>
+</div>
+
+<div class="pagebackground">
+<p>Welcome to my website!!</p>
+</div>
+
+<!--slides-->
+<div class="slideshow-container">
+	<div class="mySlides fade">
+	<a href="chitachi.html"><img src="chitapic.webp" style="width:500px; height:500px;"></a>
+	<div class="slideText">Read Chitachi</div>
+	</div>
+
+	<div class="mySlides fade">
+	<a href="lyricss.html"><img src="teacher.jpg" style="width:500px; height:500px;"></a>
+	<div class="slideText">Learn the TRUE meaning behind my lyrics...</div>
+	</div>
+
+	<div class="mySlides fade">
+	<a href="videos.html"><embed src="carmelldansen.swf" style="width:500px; height:500px;"></embed></a>
+	<div class="slideText">Coming <s>Soon</s> Eventually...</div>
+	</div>
+
+<!--arrows-->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!--dots-->
+<div style="text-align:center;">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+</div>
+	
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<embed src="Untitled-1.swf" width="500" height="150" wmode="transparent"></embed>
+
+<div class="footer">
+<a href="https://soundcloud.com/nochesloches" target="_blank"><img src="scloud.jpg" width=50 height=50 style="margin:10px;"></a>
+<!--<a href="https://open.spotify.com/nochesloches" target="_blank"><img src="spotty.jpg" width=50 height=50 style="margin:10px;"></a>-->
+<!--<a href="https://music.apple.com/nochesloches" target="_blank"><img src="itunes.jpg" width=50 height=50 style="margin:10px;"></a>-->
+<a href="https://youtube.com/nochesloches" target="_blank"><img src="ytube.jpg" width=50 height=50 style="margin:10px;"></a>
+<a href="https://instagram.com/nochesloches" target="_blank"><img src="inner.jpg" width=50 height=50 style="margin:10px;"></a>
+<p>☺2026 SILVERWARED.</p><br>
+<p style="padding-left:15px;"><i>this project is silverwared.</i></p>
+</div>
+</body>
+<!-- this is a comment -->
+</html>
