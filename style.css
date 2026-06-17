@@ -97,11 +97,13 @@
 	}
 
 .homebody{
-	background-image:url("demoback.jpg");
+	background-image:url("doragon-g.jpg");
 	background-repeat: no-repeat;
 	background-size:contain;
 	background-size:100%;
-	background-color:#abff77;
+	/* background-color:#6c4bbf; /*purple dragon*/ 
+	background-color:#69bd4b; /*green dragon*/ 
+	/* background-color:#be4b58; /*red dragon*/ 
 }
 .musbody{
 	background-image:url("kitchen3.jpg");
