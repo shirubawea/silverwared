@@ -10,6 +10,39 @@
 .head h1{
 	opacity:0;
 }
+.scroll-left {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+ background: orange;
+ color: purple;
+ border: 3px solid purple;
+ margin-bottom:25px;
+ margin-left:230px;
+ margin-right:230px;
+}
+.scroll-left p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+ 0%   {
+ transform: translateX(100%); 		
+ }
+ 100% {
+ transform: translateX(-100%); 
+ }
+}
+
 .twentenhead h1{
 	opacity:0;
 }
@@ -141,6 +174,12 @@
 	background-repeat:repeat;
 	background-size:contain;
 	background-size:50%;
+}
+.bdaybody{
+	background-image:url("bdaybg.gif");
+	background-repeat:repeat;
+	background-size:contain;
+	background-size:25%;
 }
 	
 * {box-sizing:border-box}
@@ -311,6 +350,21 @@
 	height:auto;
 	font-family: Tahoma, sans-serif;
 	}
+.footer a:visited {
+  color: white;
+}
+.bdayfooter{
+	display:flex;
+	justify-content:center;
+	background-image:url(candles.gif);
+	background-size:25% 180%;
+	color:white;
+	height:auto;
+	font-family: Tahoma, sans-serif;
+	}
+.bdayfooter a:visited {
+  color: white;
+}
 .footer a:visited {
   color: white;
 }
