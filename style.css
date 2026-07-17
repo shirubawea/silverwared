@@ -130,11 +130,11 @@
 	}
 
 .homebody{
-	background-image:url("doragon-g.jpg");
+	background-image:url("kitchen3.jpg");
 	background-repeat: no-repeat;
 	background-size:contain;
 	background-size:100%;
-	/* background-color:#6c4bbf; /*purple dragon*/ 
+	/* doragon-g.jpg - background-color:#6c4bbf; /*purple dragon*/ 
 	background-color:#69bd4b; /*green dragon*/ 
 	/* background-color:#be4b58; /*red dragon*/ 
 }
