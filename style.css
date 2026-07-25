@@ -430,6 +430,9 @@
 .footer a:visited {
   color: white;
 }
+.footer a:link{
+	color: white;
+}
 .bdayfooter{
 	display:flex;
 	justify-content:center;
