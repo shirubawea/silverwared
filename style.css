@@ -378,6 +378,15 @@
 	overflow:hidden;
 	margin-right:0px;
 	}
+.advertfour{
+	width:660px;
+	height:104px;
+	background-image:url("loveyoupl.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	overflow:hidden;
+	margin-right:0px;
+	}
 .nyadone{
 	display:flex;
 	justify-content:flex-start;
