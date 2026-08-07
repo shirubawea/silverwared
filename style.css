@@ -387,6 +387,24 @@
 	overflow:hidden;
 	margin-right:0px;
 	}
+.advertfive{
+	width:660px;
+	height:104px;
+	background-image:url("rrbannrg.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	overflow:hidden;
+	margin-right:0px;
+	}
+.advertsix{
+	width:660px;
+	height:104px;
+	background-image:url("rrbannrc.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	overflow:hidden;
+	margin-right:0px;
+	}
 .nyadone{
 	display:flex;
 	justify-content:flex-start;
