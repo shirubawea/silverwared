@@ -1,7 +1,7 @@
 /*Main Website*/
 .head{
 	text-align:center;
-	filter:hue-rotate(270deg);
+	filter:hue-rotate(165deg);
 	display:flex;
 	justify-content:center;
 	margin-top:-172px;
@@ -87,7 +87,7 @@
 	padding:30px;
 	padding-top:10px;
 }
-.no-cb-table{
+.no-cb-table{ 
 	background-color:#66ff33;
 	width:auto;
 	max-width:750px;
@@ -221,7 +221,7 @@
 	background-size:100% 100%;
 }
 .vidbody{
-	background-image:url("kitchen3.jpg");
+	background-image:url("background.gif");
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }
@@ -865,10 +865,12 @@
 	background-image:url("lybck.webp");
 	text-align:center;
 	background-size:100% 100%;
-	width:60%;
+	width:75%;
 	height:auto;
 	margin-top:20px;
 	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .dronelyrics{
 	padding:25px;
@@ -879,6 +881,8 @@
 	height:auto;
 	margin-top:20px;
 	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .enochalyrics{
 	padding:25px;
@@ -889,6 +893,8 @@
 	height:auto;
 	margin-top:20px;
 	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .yoltlyrics{
 	padding:25px;
@@ -899,6 +905,8 @@
 	height:auto;
 	margin-top:20px;
 	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .cdromlyrics{
 	padding:50px;
@@ -909,6 +917,8 @@
 	height:auto;
 	margin-top:20px;
 	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .jewellyrics{
 	padding:30px;
@@ -919,6 +929,8 @@
 	height:auto;
 	margin-top:20px;
 	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .miclyrics{
 	padding:30px;
@@ -929,6 +941,8 @@
 	height:auto;
 	margin-top:20px;
 	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 /*Resistance Page Stuff*/
 .resisbig{
