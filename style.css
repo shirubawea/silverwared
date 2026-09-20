@@ -1,7 +1,7 @@
 /*Main Website*/
 .head{
 	text-align:center;
-	filter:hue-rotate(165deg);
+	filter:hue-rotate(210deg) saturate(8);
 	display:flex;
 	justify-content:center;
 	margin-top:-172px;
@@ -17,8 +17,8 @@
  overflow: hidden;
  position: relative;
  background: orange;
- color: purple;
- border: 5px solid purple;
+ color: #2f2623;
+ border: 5px solid #2f2623;
  margin-bottom:25px;
  margin-left:auto;
  margin-right:auto;
@@ -92,6 +92,8 @@
 	max-width:750px;
 	padding:30px;
 	padding-top:10px;
+	border-radius: 25px;
+	box-shadow: 5px 5px 7px black;
 }
 .no-cb-table{ 
 	background-color:#66ff33;
@@ -263,6 +265,13 @@
 	background-repeat:repeat;
 	background-size:contain;
 	background-size:25%;
+}
+.fallbody{
+	background-image:url("pile.jpg");
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-size:100%;
+	background-color:#b66d10;
 }
 	
 * {box-sizing:border-box}
@@ -469,13 +478,25 @@
 .bdayfooter{
 	display:flex;
 	justify-content:center;
-	background-image:url(candles.gif);
+	background-image:url("candles.gif");
 	background-size:25% 180%;
 	color:white;
 	height:auto;
 	font-family: Tahoma, sans-serif;
 	}
 .bdayfooter a:visited {
+  color: white;
+}
+.fallfooter{
+	display:flex;
+	justify-content:center;
+	background-image:url("fallfooter.jpg");
+	background-size:100% 100%;
+	color:white;
+	height:auto;
+	font-family: Tahoma, sans-serif;
+	}
+.fallfooter a:visited {
   color: white;
 }
 
@@ -626,11 +647,18 @@
   display:flex;
   justify-content:space-between;
 }
+.nextbuttonresis{
+  display:flex;
+  justify-content:space-between;
+}
 .nextbuttonten a:hover{
   filter:hue-rotate(200deg);
 }
 .nextbuttontwel a:hover{
   filter:hue-rotate(70deg);
+}
+.nextbuttonresis a:hover{
+  filter:hue-rotate(250deg);
 }
 /*summer beach nightmare*/
 .sbnlyrics{
@@ -969,7 +997,8 @@
 	margin:15px;
 	display:flex;
 	justify-content:center;
-	margin-left:250px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .resissongs a{
 	text-decoration:none;
@@ -998,7 +1027,9 @@
 	width:60%;
 	height:auto;
 	margin-top:20px;
-	margin-left:150px;
+	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .subalyrics{
 	padding:30px;
@@ -1008,27 +1039,33 @@
 	width:60%;
 	height:auto;
 	margin-top:20px;
-	margin-left:180px;
+	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .mysticlyrics{
-	padding:30px;
+	padding:40px;
 	background-image:url("lybck.webp");
 	text-align:center;
 	background-size:100% 100%;
 	width:60%;
 	height:auto;
 	margin-top:20px;
-	margin-left:150px;
+	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .absencelyrics{
-	padding:30px;
+	padding:50px;
 	background-image:url("lybck.webp");
 	text-align:center;
 	background-size:100% 100%;
 	width:60%;
 	height:auto;
 	margin-top:20px;
-	margin-left:190px;
+	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .cascalyrics{
 	padding:30px;
@@ -1038,17 +1075,21 @@
 	width:60%;
 	height:auto;
 	margin-top:20px;
-	margin-left:190px;
+	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .lainlyrics{
-	padding:30px;
+	padding:40px;
 	background-image:url("lybck.webp");
 	text-align:center;
 	background-size:100% 100%;
 	width:60%;
 	height:auto;
 	margin-top:20px;
-	margin-left:170px;
+	margin-left:200px;
+	margin:auto;
+	margin-bottom:0px;
 	}
 .resisfooter a:visited {
   color: white;
