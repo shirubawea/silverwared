@@ -274,6 +274,13 @@
 	background-size:100%;
 	background-color:#b66d10;
 }
+.fallbodytwo{
+	background-image:url("iamdeth.jpg");
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-size:100%;
+	background-color:#1e1b22;
+}
 	
 * {box-sizing:border-box}
 
